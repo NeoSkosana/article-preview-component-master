@@ -151,4 +151,18 @@ body {
     transition: opacity 0.3s ease, visibility 0.3s ease;
  }
 
- 
+ /* Mobile Active State: Footer transforms */
+ .article-footer.active {
+    background-color: var(--clr-primary-400);
+ }
+
+.article-footer.active .author-profile {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.article-footer.active .share-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
